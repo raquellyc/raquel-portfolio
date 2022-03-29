@@ -36,12 +36,12 @@ a {
 }
 
 a:hover {
-    color: #f44647;
+    color: #fa7d29;
 }
 
 .section a {
     font-weight: 700;
-    color: #f44647;
+    color: #fda737;
 }
 
 .section a:hover {
@@ -225,7 +225,7 @@ img.block-right {
 
 .nav-container .site-title:hover:before {
     width: 0;
-    background-color: #f44647;
+    background-color: #ffad6b;
 }
 
 .nav-btn {
@@ -343,7 +343,7 @@ img.block-right {
 
 #home .entry-title {
     position: absolute;
-    color: #f44647;
+    color: #f3a734;
     font-weight: 800;
     font-size: 140px;
     line-height: 143px;
@@ -399,7 +399,7 @@ img.block-right {
 }
 
 .serv-link-cover {
-    background-color: #f44647;
+    background-color: #f1b877;
     display: flex;
     align-items: center;
     padding: 50px 70px;
@@ -481,7 +481,7 @@ img.block-right {
 }
 
 .about-info {
-    background-color: #f44647;
+    background-color: #f5aa47;
     color: #fff;
     width: 330px;
     padding: 50px 30px 50px 70px;
@@ -660,7 +660,7 @@ img.block-right {
     width: 70px;
     height: 70px;
     display: inline-block;
-    background-color: #f44647;
+    background-color: #f7b423;
     margin-bottom: 20px;
     background-size: 70px;
     transition: all 0.3s ease;
@@ -712,7 +712,7 @@ img.block-right {
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-    background-color: #f44647;
+    background-color: #f19f32;
 }
 
 
@@ -804,60 +804,11 @@ div.pp_default .pp_description {
 
 
 /* ===================================
-    7. Blog Section CSS
-====================================== */
-
-.home-blog-list {
-    padding-right: 41px;
-}
-
-.home-blog-list li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 0;
-    min-height: 136px;
-}
-
-.home-blog-list li:last-child {
-    padding-bottom: 0;
-}
-
-.home-blog-list li + li {
-    border-top: 2px solid #fff;
-}
-
-.home-blog-list li a {
-    font-size: 26px;
-    margin-right: 30px;
-    color: #000;
-}
-
-.home-blog-list li a:hover {
-    color: #f44647;
-}
-
-.home-blog-list li .blog-list-info {
-    flex: 0 0 auto;
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 14px;
-    letter-spacing: 3px;
-    min-width: 100px;
-}
-
-.home-blog-list li .blog-list-info .category {
-    color: #f44647;
-    margin-top: 6px;
-}
-
-
-/* ===================================
     8. Skills Section CSS
 ====================================== */
 
 .skills-history {
-    background-color: #f44647;
+    background-color: #f89c24;
     color: #fff;
     margin-top: 41px;
     padding: 63px 60px 62px 94px;
@@ -945,7 +896,7 @@ div.pp_default .pp_description {
 .skills-progress .skill-fill {
     width: 10%;
     height: 10px;
-    background-color: #f44647;
+    background-color: #ee921a;
     transition: width .7s;
 }
 
