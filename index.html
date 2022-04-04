@@ -16,28 +16,42 @@
         <link rel="stylesheet" href="css/owl.theme.default.min.css">
         <link rel="stylesheet" href="style.css">
 
-        <!--[if lt IE 9]>
-            <script src="js/html5shiv.js"></script>
-            <script src="js/respond.min.js"></script>
-        <![endif]-->
-    </head>
-<body class="one-page">
-    <div id="nav-btn" class="nav-btn active">
-        <div class="doc-loader" style="display: none;"></div>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90924782-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-90924782-1', {'anonymize_ip': true});
+    </script> 
+
+</head>
+
+<body class="one-page"> 
+
+    <div class="doc-loader"></div>
+
+    <div class="container">
+        <div class="page-wrapper">
+
+    <!-- ================= HEADER ================= -->
+    <div id="nav-btn" class="nav-btn">
         <span class="nav-btn-cover">
             <span class="menu-line"></span>                   
         </span>
     </div>
-    <div class="s-nav active">
+    <div class="s-nav">
         <div class="nav-count">
             <div class="current-num">
-                <span style="opacity: 1; left: 0px;">01</span>
+                <span>01</span>
             </div>
             <div class="pagination-sep">/</div>
             <div class="total-pages-num">07</div>
         </div>                                                            
         <div class="nav-container">
-            <a class="site-title slow-scroll" href="#home">RAQUEL CASTILLO</a>
+            <a class="site-title slow-scroll" href="#home">Raquel Castillo</a>
             <nav class="nav-menu">
                 <ul class="nav-list">
                     <li class="current"><a href="#home">Home</a></li>
@@ -49,7 +63,7 @@
             </nav>
         </div>
         <ul class="nav-soc">
-            <li id="twitter"><a href="https://twitter.com/raquel73067960"><img src="images/icons8-twitter (2).svg"/></a></li>
+            <li id="twitter"><a href="https://twitter.com/raquel73067960"><img src="images/icons8-twitter (2).svg" width="30px" height="30px"/></a></li>
             <li id="linkeden"><a href="https://www.linkedin.com/feed/?trk=nav_logo"><img src="images/icons8-linkedin.svg"/></a></li>
             <li id="github"><a href="https://github.com/"><img src="images/icons8-github.svg"/></a></li>
         </ul>
@@ -57,16 +71,11 @@
     <!-- ================== HOME ================== -->
     <section id="home" class="section">
         <div class="container-wrap">                        
-            <h1 class="entry-title" data-jarallax-element="0 30" style="transform: translate3d(593.14px, 0px, 0px);">Hello <br>I’m <span>Raquel Castillo</span>
-            <div id="jarallax-container-0" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;">
-                <div style="position: fixed;">
-            </div>
-        </div>
-        </h1>
+            <h1 class="entry-title" data-jarallax-element="0 30">Hello <br>I’m <span>Raquel Castillo</span></h1>
+            <img class="main-photo block-right" data-jarallax-element="0 -30" src="images/photo-1.jpg" alt="">                        
             <a href="#services" class="main-btn slow-scroll"><img src="images/scroll-icon.svg" alt=""></a>
         </div>
     </section>
-
     <!-- ================== ABOUT ================== -->
     <section id="about" class="section">
         <h2 class="title">ABOUT</h2>
@@ -77,58 +86,6 @@
         </div>
             
     <!-- ================== PORTFOLIO ================== -->
-    <!-- <section id="portfolio" class="section">
-        <h2 class="title">WORK</h2>
-        <div id="p-item-1" class="grid-item element-item p-one" >
-            <a class="item-link ajax-portfolio" href="portfolio-1.html" data-id="1">
-                <img src="images/bottomsuppic.png" alt="" />
-                <div class="portfolio-text-holder">
-                    <div class="portfolio-text-wrapper">
-                        <p class="portfolio-text">Bottoms Up</p>
-                        <p class="portfolio-cat">Text</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div id="p-item-2" class="grid-item element-item p-two">
-            <a class="item-link ajax-portfolio" href="portfolio-2.html" data-id="2">
-                <img src="images/mastermind.jpg" alt="" />
-                <div class="portfolio-text-holder">
-                    <div class="portfolio-text-wrapper">
-                        <p class="portfolio-text">Mastermind</p>
-                        <p class="portfolio-cat">Text</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div id="p-item-3" class="grid-item element-item p-three" style="position: absolute; left: 0%; top: 1120px;">
-            <a class="item-link ajax-portfolio" href="portfolio-3.html" data-id="3">
-                <img src="images/coffeeclubpic.png" alt=""/>
-                <div class="portfolio-text-holder">
-                    <div class="portfolio-text-wrapper">
-                        <p class="portfolio-text">The Little Coffee Club</p>
-                        <p class="portfolio-cat">Text</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div id="p-item-4" class="grid-item element-item p-four">
-            <a class="item-link ajax-portfolio" href="portfolio-4.html" data-id="4">
-                <img src="images/calcompadrepic.png" alt="" />
-                <div class="portfolio-text-holder">
-                    <div class="portfolio-text-wrapper">
-                        <h2 class="portfolio-text">CALORIE COMPADRE</h2>
-                        <h3 class="portfolio-text">HTML, CSS,</h3>
-                        <p class="portfolio-cat">A functional app that helps you count calories</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </section> -->
-
     <section id="portfolio" class="section">
         <h2 class="title">WORK</h2>
         <div id="portfolio-wrapper" class="relative block-right">                        
@@ -214,7 +171,11 @@
                         <div class="portfolio-text-holder">
                             <div class="portfolio-text-wrapper">
                                 <p class="portfolio-text">BOTTOMS UP</p>
-                                <p class="portfolio-cat">Text</p>
+                                <p class="portfolio-cat">Bottoms Up! is an app that helps you find a drink for any occasion!
+                                     With our unique "Alcoholgorithm," we find the best drink for your day and mood! 
+                                     Ease your mind with a stress-free app that lets you save your perfectly curated drink for quick and easy access. 
+                                     like we always say, "When life throws lemons catch them and make a cocktail!"
+                                </p>
                             </div>
                         </div>
                     </a>
@@ -226,7 +187,10 @@
                         <div class="portfolio-text-holder">
                             <div class="portfolio-text-wrapper">
                                 <p class="portfolio-text">MASTERMIND</p>
-                                <p class="portfolio-cat">Text</p>
+                                <p class="portfolio-cat">Mastermind is a fun board game where the player is challenged to crack a code of 4 colors. 
+                                    As the player guesses, they get hints to narrow down the code. 
+                                    The winner is the player that guesses the code before all the remaining slots are filled.
+                                </p>
                             </div>
                         </div>
                     </a>
@@ -238,7 +202,11 @@
                         <div class="portfolio-text-holder">
                             <div class="portfolio-text-wrapper">
                                 <p class="portfolio-text">THE LITTLE COFFEE CLUB</p>
-                                <p class="portfolio-cat">Text</p>
+                                <p class="portfolio-cat">
+                                    The app is called "The little coffee club." Users can add a coffee tasting experience and share it with friends. 
+                                    They are provided a list of the highest to lowest rated coffees with the ratings collected. 
+                                    The website includes a Brew Method section where users can get a list of different ways to brew their coffee for their next tasting experience.
+                                </p>
                             </div>
                         </div>
                     </a>
@@ -250,7 +218,11 @@
                         <div class="portfolio-text-holder">
                             <div class="portfolio-text-wrapper">
                                 <p class="portfolio-text">CALORIE COMPADRE</p>
-                                <p class="portfolio-cat">text</p>
+                                <p class="portfolio-cat">
+                                    Calorie Compadre is a lovely little app that helps users track their health and fitness goals! 
+                                    With this simple app, users can add meals and view calories for specific foods. 
+                                    They can also track their workouts and set workout goals and track their weight.
+                                </p>
                             </div>
                         </div>
                     </a>
@@ -262,35 +234,61 @@
     <!-- ================== SKILLS ================== -->
     <section id="skills" class="section">
         <h2 class="title">SKILLS</h2>
-        <div class="box-icon">
-            <i class="devicon devicon-css3-plain" aria-hidden="true"></i>
-            <!-- <span class="tooltip">CSS3</span> -->
-          </div>
-          <div class="box-icon">
-            <i class="fab fa-js" aria-hidden="true"></i>
-            <!-- <span class="tooltip">JavaScript</span> -->
-          </div>
-          <div class="box-icon">
-            <i class="devicon devicon-react-original" aria-hidden="true"></i>
-            <!-- <span class="tooltip">React</span> -->
-          </div>
-          <div class="box-icon">
-            <i class="fas fa-cogs" aria-hidden="true"></i>
-            <!-- <span class="tooltip">RESTful APIs</span> -->
-          </div>
-          <div class="box-icon">
-            <i class="devicon devicon-sass-original" aria-hidden="true"></i>
-            <!-- <span class="tooltip">SASS</span> -->
-          </div>
-          <div class="box-icon">
-            <i class="fab fa-adobe" aria-hidden="true"></i>
-          </div>
+        <div class="icon-grid">
+            <div class="box-icon">
+                <img src="images/icons8-html-5.svg" height="70" width="70px"/>
+                <p>HTML5</p>
+            </div>
+            <div class="box-icon">
+                <img src="images/icons8-css3.svg" height="75" width="75px"/>
+                <p>CSS3</p>
+            </div>
+            <div class="box-icon">
+                <img src="images/icons8-javascript.svg" height="70" width="70px"/>
+                <p>JavaScript</p>
+            </div>
+            <div class="box-icon">
+                <img src="images/icons8-python.svg" height="70" width="70px"/>
+                <p>Python</p>
+            </div>
+            <div class="box-icon">
+                <img src="images/icons8-visual-studio (1).svg" height="70" width="70px"/>
+                <p>VS Code</p>
+            </div>
+            <div class="box-icon">
+                <img src="images/icons8-github.svg" height="70" width="70px"/>
+                <p>Github</p>
+            </div>
+            <div class="box-icon">
+                <img src="images/icons8-react-native.svg" height="70" width="70px"/>
+                <p>React</p>
+            </div>
+            <div class="box-icon">
+                <img src="images/icons8-node-js.svg" height="70" width="70px"/>
+                <p>Node JS</p>
+            </div>
+            <div class="box-icon">
+                <img src="images/icons8-django.svg" height="70" width="70px"/>
+                <p>Django</p>
+            </div>
+            <div class="box-icon">
+                <img src="images/icons8-postgresql.svg" height="70" width="70px"/>
+                <p>PostgreSQL</p>
+            </div>
+            <div class="box-icon">
+                <img src="images/mongodb-svgrepo-com.svg" height="70" width="70px"/>
+                <p>MongoDB</p>
+            </div>
+            <div class="box-icon">
+                <img src="images/icons8-adobe-logo.svg" height="70" width="70px"/>
+                <p>Adobe Suit</p>
+            </div>
+        </div>
+    </section>
+
     <!-- ================== contact ================== -->
     <section id="contact" class="section section-active">
         <h2 class="title">CONTACT</h2>
-        <div class="section-des">
-            Drop A Line!
-        </div>
         <div class="content-670">
             <p>
                 Want to collaborate? Have questions about my resume or other qualifications, Feel free to send me a message! 

@@ -1,22 +1,3 @@
-/*------------------------------------------------------------------
-
-[Table of contents]
-1. Global CSS
-2. Header / Menu CSS
-3. Home Section CSS 
-4. Service Section CSS
-5. About Section CSS
-6. Portfolio Section CSS
-    6.1 Pretty Photo CSS
-7. Blog Section CSS
-8. Skills Section CSS
-9. Contact Section CSS
-10. Single Blog / Post Page CSS
-11. Responsive CSS
-
--------------------------------------------------------------------*/
-
-
 /* ===================================
     1. Global CSS
 ====================================== */
@@ -494,17 +475,12 @@ img.block-right {
     5. About Section CSS
 ====================================== */
 
-.about-img {
-    max-width: 100%;
-    display: block;
-}
-
 .about-info {
     background-color: #f44647;
     color: #fff;
     width: 80vh;
     padding: 50px 30px 50px 70px;
-    margin: 0 0 40px 65px;
+    margin-right: 10vh;
 }
 
 .about-info li + li {
@@ -874,93 +850,15 @@ div.pp_default .pp_description {
     8. Skills Section CSS
 ====================================== */
 
-.skills-history {
-    background-color: #f44647;
-    color: #fff;
-    margin-top: 41px;
-    padding: 63px 60px 62px 94px;
+.icon-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 20vh);
+    column-gap: 10px;
+    row-gap: 15px;
+    margin-left: 5vh;
 }
 
-.skills-history li {
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-
-.skills-history li:before {
-    content: '';
-    position: absolute;
-    left: 28%;
-    top: 0;
-    background-color: #fff;
-    width: 3px;
-    height: 100%;
-}
-
-.skills-history li + li {
-    padding-top: 37px;
-}
-
-.skills-history li .date {
-    flex: 0 0 28%;
-    max-width: 28%;
-    font-weight: 200;
-    font-size: 60px;
-    line-height: 30px;
-    transition: .35s ease-out;
-}
-
-.skills-history li:hover .date {
-    -webkit-transform: translateX(15px);
-    transform: translateX(15px);
-    color: #000;
-}
-
-.skills-history li p {
-    flex: 0 0 72%;
-    max-width: 72%;
-    padding: 0 50px 0 80px;
-    cursor: default;
-    transition: .35s ease-out;
-    margin-bottom: 0;
-}
-
-.skills-history li:hover p {
-    -webkit-transform: translateX(-15px);
-    transform: translateX(-15px);
-}
-
-.skills-progress {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-right: 40px;
-    padding-top: 69px;
-}
-
-.skills-progress li {
-    display: flex;
-    align-items: center;
-    width: calc(50% - 35px);
-    margin-bottom: 22px;
-}
-
-.skills-progress .name {
-    font-size: 12px;
-    line-height: 28px;
-    letter-spacing: 3.5px;    
-    width: 37%;
-    padding-right: 30px;
-}
-
-.skills-progress .skill {
-    width: 100%;
-    height: 10px;
-    background-color: #ffd2d3;
-    width: 63%;
-}
-
-.skills-progress .skill-fill {
+.skill-fill {
     width: 10%;
     height: 10px;
     background-color: #f44647;
@@ -973,7 +871,8 @@ div.pp_default .pp_description {
 ====================================== */
 
 .contact-form {
-    margin-top: 40px
+    margin-top: 40px;
+    background-color: #f44647;
 }
 
 .contact-form * {
