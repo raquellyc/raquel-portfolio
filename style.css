@@ -21,7 +21,7 @@ body {
     min-width: 320px;
     position: relative;
     overflow-x: hidden;
-    background: linear-gradient(to right, white 0%, white 60%, white 60%);
+    background: linear-gradient(to right, white 0%, white 60%, #242526 60%);
     background-position: center;
 }
 
@@ -120,7 +120,6 @@ img.block-right {
 ====================================== */
 
 .s-nav {
-    background-color: #242526;
     position: fixed;
     right: 0;
     top: 0;
@@ -478,6 +477,10 @@ img.block-right {
 /* ===================================
     5. About Section CSS
 ====================================== */
+.about-img {
+    max-width: 100%;
+    display: block;
+}
 
 .about-info {
     background-color: #f44647;
@@ -1267,3 +1270,6 @@ div.pp_default .pp_description {
     }
 
 }
+
+
+
